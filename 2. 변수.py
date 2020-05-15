@@ -15,7 +15,7 @@ x = None # 다른언어의 null값은 파이썬에선 None이다.
 
 # 입력 값을 변수에 저장하기
 x = input()
-Hello, world!
+# Hello, world!
 print(x) # 'Hello, world!'
 type(x) # <class 'str'>
 # input 함수로 값을 입력받으면 str타입으로 저장이된다.
@@ -27,7 +27,7 @@ print(a+b) #1020 # a='10',b='20'
 
 # 한번의 input 함수로 여러개의 변수에 저장하기
 a,b,c = input('문자열').split('기준문자열')
-z zz zzz # a='z' b='zz' c='zzz'
+# z zz zzz # a='z' b='zz' c='zzz'
 
 # map을 이용한 정수변환
 a, b = map(int,input().split())
